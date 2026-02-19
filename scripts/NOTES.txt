@@ -1,0 +1,6 @@
+This skeleton is designed to be integrated into the legacy project first (bridge mode).
+
+Recommended approach:
+1) Add `src/` to PYTHONPATH or install editable.
+2) In legacy `game_tab.py`, replace direct calls with ActionEngine.run(Action).
+3) Map engine events to existing UI outputs (history, status html, prompt preview, debug trace).
